@@ -70,6 +70,7 @@
     "prepare": "husky install",
     "pretest": "npm run lint",
     "test": "mocha test/**/*.js",
+    "test:params": "mocha test/params.js",
     "test:watch": "mocha test/**/*.js --watch"
   }
 }
